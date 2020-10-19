@@ -2,7 +2,7 @@
 $PLAY = $_POST['QR'];
 
 if(empty($PLAY)) {
-echo "<h2>Oups, this requires input</h2>\n" ;
+echo "<h2>Oops, this requires input</h2>\n" ;
 die ("Go back and, try again. Kill will ignore the input.");
 }
 ?>
